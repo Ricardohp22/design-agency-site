@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  top: 10%;
+  width: 100%;
+  background: fixed;
+}
+
+#home-jumbotron {
+  background: green;
+  background-image: url("https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.jumbotron-description {
+  z-index: 1;
+}
+
+.jumbotron-description h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.custom-button {
+  padding: 1rem 3rem;
+  border: solid 2px;
+}
+
+.custom-button.light {
+  color: white;
+  border-color: white;
+}
+
+.custom-button.dark {
+  color: black;
+  border-color: black;
+}
+
+#home-intro {
+  margin-top: -100px;
+  position: relative;
+  padding: 0px 50px 0px 50px;
+}
+
+.salmon-gradient {
+  padding: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#FF512F), to(#DD2476));
+  background: linear-gradient(to right, #FF512F, #DD2476);
+}
+
+.contenidoIntro {
+  padding: 60px 90px 130px 90px;
+}
+
+.strong {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introInfo {
+  padding-left: 100px;
+}
+
+#introTexto {
+  padding-bottom: 50px;
+}
+
+#imagenesCont {
+  margin-top: -80px;
+}
+
+img {
+  width: 100%;
+}
+
+.paddingImg {
+  padding: 10px;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+}
+
+.overlay2:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.overlay2:hover .ic-img {
+  color: white;
+}
+
+.ic-img {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0);
+}
+
+.ag-vertical-separator {
+  width: 1px;
+  height: 80px;
+  background: #e4e4e4;
+  margin: 0 auto;
+}
+
+.margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.margin button {
+  color: black;
+  font-weight: 700;
+  padding: 20px;
+  width: 250px;
+  min-height: 50px;
+  border-radius: 0;
+  border: solid 2px;
+}
+
+#numeros {
+  padding: 50px 50px;
+}
+
+.grande {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.gris {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #adb5bd;
+}
+/*# sourceMappingURL=styles.css.map */
